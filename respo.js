@@ -4,6 +4,8 @@ export const respo = {
   FAIL: "FAIL",
   GHOST: "GHOST",
   PING: "PING",
-  VISION: "VISION"
+  VISION: "VISION",
+  ROOT: "ROOT",
+  AXIS: "AXIS",
+  ORBIT: "ORBIT"
 };
-
