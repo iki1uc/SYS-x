@@ -3,7 +3,7 @@ import { respo } from "./respo.js";
 import { R } from "./R.js";
 
 export const system = {
-  name: "SYS",
+  name: "SYS-x",
   axis,
   respo,
   relevance() {
