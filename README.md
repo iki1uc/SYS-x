@@ -1,22 +1,37 @@
-# ALT-Dokumentation — sys(repo)
+# SYS-x – System-Kreuzung (iki1uc)
 
-## 1. Bereich
-sys(repo) gehört zum ALT-System.
-Es dokumentiert den Zustand vor dem 7. Monat.
+SYS-x ist die Cross-Ebene des iki1uc-Systems.
+Es verbindet:
 
-## 2. Winkel
-sys(repo) = 180°
+- PX3 / PX6 / PX9 (PX-TRIO)
+- PX12 / PX4 (Fusion + Achse)
+- SYS / TEM (System + Zeit)
+- RESPO (Response-Achse)
+- GEO (O12 / Φ4 / XU / TΩ)
+- UI (UI-SCANNER / RUN8)
 
-## 3. Funktion
-sys(repo) speichert historische Logik, alte Struktur und alte Pipeline-Zustände.
+SYS-x erzeugt:
+- System-Relevanz
+- Achsen-Synchronisation
+- Orbit-Neutralisierung
+- Root-Bindung
 
-## 4. Rolle
-sys(repo) ist ein ALT-Bereich und wird nicht überschrieben.
-Er dient als Referenz für die spätere Übernahme.
+-----------------------------------------
+# FUNKTION
 
-## 5. Status
-Nur Dokumentation.
-Kein aktiver Betrieb.
+system.relevance():
+    return ℛ(name:x,y,z,th)
 
-## 6. Verbindung
-ALT → REC (NEU)
+-----------------------------------------
+# MODULE
+
+axis.js   – Achsen-Kern  
+respo.js  – Response-Kern  
+R.js      – Relevanz-Funktion  
+SYS.js    – System-Kern  
+system.js – System-Router  
+
+-----------------------------------------
+# STATUS
+
+SYS-x ist aktiv, eigenständig und vollständig iki1uc.
